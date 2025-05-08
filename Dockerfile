@@ -293,7 +293,6 @@ RUN chmod +x /usr/local/bin/*
 
 COPY target/scripts/helpers /usr/local/bin/helpers
 COPY target/scripts/startup/setup.d /usr/local/bin/setup.d
-COPY config/postfix-accounts.cf /tmp/docker-mailserver/postfix-accounts.cf
 #
 # Final stage focuses only on image config
 #
