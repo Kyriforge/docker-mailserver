@@ -5,7 +5,7 @@ services:
     environment:
       - LDAP_ORGANISATION=KyRiForge
       - LDAP_DOMAIN=kyriforge.com
-      - LDAP_ADMIN_PASSWORD=YourLDAPAdminPassword
+      - LDAP_ADMIN_PASSWORD=R3h!V7p&B9m#X4q@T2dL
     ports:
       - "389:389"
       - "636:636"
